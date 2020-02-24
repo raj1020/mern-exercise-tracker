@@ -1,15 +1,17 @@
 
-import React, {Component} from 'react';
+import React from 'react';
 
-export default class CreateExercises extends Component {
+class CreateExercise extends React.Component {
     render() {
-        return (
+        return(
             <div>
                 <p>You are in the Create Exercises  component!</p>
             </div>
         );
     }
 }
+
+export default CreateExercise;
 
 
 

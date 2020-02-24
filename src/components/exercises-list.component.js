@@ -2,13 +2,13 @@
 import React from 'react';
 
 export default class ExercisesList extends React.Component {
-    render(
+    render(){
         return(
             <div>
                 <p>You are in the Exercises List component!</p>
             </div>
         );
-    )
+        }
 }
 
 
